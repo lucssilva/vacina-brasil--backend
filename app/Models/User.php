@@ -15,10 +15,8 @@ class User extends Authenticatable
         'name',
         'cpf',
         'phone_number',
-        'password',
     ];
     protected $hidden = [
-        'password',
         'remember_token',
     ];
 }
